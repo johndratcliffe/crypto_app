@@ -72,7 +72,7 @@ const Navbar = () => {
 		<div className={`${sticky ? 'bg-dpurple shadow-2xl' : ''} fixed z-50 ease-in duration-300 px-4 py-6 gap-4 w-full flex items-center justify-between lg:justify-around text-white`}>
 			<button onClick={() => handleNavigation('hero')} className='flex items-center space-x-2 order-999'>
 				<Logo size='40'/>
-				<h1 className='font-bold text-4xl'>Coin.com</h1>
+				<h1 className='font-bold text-2xl'>CryptoTrail</h1>
 			</button>
 			<ul className={`${isResizing ? 'transition-none' : ''} md:relative md:translate-x-0 md:bg-transparent md:text-white md:flex-row md:text-xl md:space-x-6 md:space-y-0 duration-300 ease-in-out ${dropdown ? 'translate-x-0' : '-translate-x-full'} text-black text-4xl font-bold space-y-6 bg-white fixed left-0 top-0 w-full md:w-fit h-full flex flex-col items-center justify-center`}>
 				<IconX className='md:hidden absolute right-6 top-6 cursor-pointer hover:text-transparent hover:ease-in-out duration-300' onClick={() => toggleDropdown(!dropdown)}/>
